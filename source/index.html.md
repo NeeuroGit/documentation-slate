@@ -20,7 +20,7 @@ code_clipboard: true
 
 meta:
   - name: description
-    content: Documentation for the NeeuroOS API
+    content: Documentation for the NeeuroOS API V1
 ---
 
 # Introduction
