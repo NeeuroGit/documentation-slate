@@ -87,8 +87,18 @@ S/N | Parameter | Description
 11 | Battery Level | The remaining battery power level.
 
 
-
 # Authentication
+
+In order to use the NeeuroOS SDK, your app needs to use a "Developer Code" to authenticate with Neeuro's servers.
+
+Every successful authentication will provide a "limited time" to access NeeuroOS SDK's functions.
+
+`Authorization: NeeuroOS`
+
+<aside class="notice">
+You must replace <code>meowmeowmeow</code> with your personal API key.
+</aside>
+
 
 > To authorize, use this code:
 
@@ -109,18 +119,7 @@ import NeeuroOS
 
 api = NeeuroOS.authorize('meowmeowmeow')
 ```
-
 > Make sure to replace `meowmeowmeow` with your API key.
-
-NeeuroOS uses API keys to allow access to the API. You can register a new NeeuroOS API key at our [developer portal](http://example.com/developers).
-
-NeeuroOS expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: meowmeowmeow`
-
-<aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
 
 # Kittens
 
