@@ -6,9 +6,9 @@ language_tabs: # must be one of https://github.com/rouge-ruby/rouge/wiki/List-of
 #  - ruby
 #  - python
 #  - javascript
-  - java: Android
-  - objective_c: iOS
-  - csharp: Unity
+  - java: Android (Java)
+  - objective_c: iOS (Objective C)
+  - csharp: Unity (C#)
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Code</a>
@@ -23,7 +23,7 @@ code_clipboard: true
 
 meta:
   - name: description
-    content: Documentation for the NeeuroOS API V1
+    content: Documentation for NeeuroOS SDK
 ---
 
 # Introduction
@@ -40,32 +40,32 @@ Turn your vision to reality with NeeuroOS today!
 
 ## System Requirements
 
-The minimum hardware system requirements needed are:
+The minimum hardware system (phone, tablet and computer) requirements needed are:
 
 Parameter | Description
 --------- | -----------
-SenzeBand 1 | Minimum Bluetooth 4.0
-SenzeBand 2 | Minimum Bluetooth 5.0
+SenzeBand 1 | Bluetooth 4.0 & above
+SenzeBand 2 | Bluetooth 5.0 & above
 
 Android system requirements:
 
 Parameter | Description
 --------- | -----------
-Android API | Minimum Version 21 (Version 23 Recommended)
-Android Studio | Minimum Version 4.0.1
+Android API | Version 21 (Version 23 Recommended) & above
+Android Studio | Version 4.0.1 & above
 
 Apple iOS system requirements:
 
 Parameter | Description
 --------- | -----------
-Apple Device OS | Minimum iOS 11.0
-Apple Xcode | Minimum Version 14
+Apple Device OS | iOS 11.0 & above
+Apple Xcode | Version 14 & above
 
 Microsoft Windows requirements:
 
 Parameter | Description
 --------- | -----------
-Microsoft Windows OS | Minimum Version 10
+Microsoft Windows OS | Version 10 & above
 Microsoft Visual Studio | Visual Studio 2022
 
 ## Data Output
