@@ -6,9 +6,9 @@ language_tabs: # must be one of https://github.com/rouge-ruby/rouge/wiki/List-of
 #  - ruby
 #  - python
 #  - javascript
-  - java
-  - objective_c
-  - csharp
+  - java: Android (Java)
+  - objective_c: iOS (Objective C)
+  - csharp: Unity (C#)
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Code</a>
@@ -40,33 +40,53 @@ Turn your vision to reality with NeeuroOS today!
 
 ## System Requirements
 
-> The minimum system requirements needed are:
+The minimum hardware system requirements needed are:
 
 Parameter | Description
 --------- | -----------
-SenzeBand 1 | Bluetooth 4.0
-SenzeBand 2 | Bluetooth 5.0
+SenzeBand 1 | Minimum Bluetooth 4.0
+SenzeBand 2 | Minimum Bluetooth 5.0
 
-> Android system requirements:
+Android system requirements:
 
 Parameter | Description
 --------- | -----------
 Android API | Minimum Version 21 (Version 23 Recommended)
 Android Studio | Minimum Version 4.0.1
 
-> Apple iOS system requirements:
+Apple iOS system requirements:
 
 Parameter | Description
 --------- | -----------
 Apple Device OS | Minimum iOS 11.0
 Apple Xcode | Minimum Version 14
 
-> Microsoft Windows
+Microsoft Windows requirements:
 
 Parameter | Description
 --------- | -----------
 Microsoft Windows OS | Minimum Version 10
 Microsoft Visual Studio | Visual Studio 2022
+
+## Data Output
+
+The NeeuroOS SDK provides the following data output from the SenzeBand:
+
+S/N | Parameter | Description
+--- | --------- | -----------
+1 | Attention | A score of 0 to 100 representing the mental state "Attention".
+2 | Relaxation | A score of 0 to 100 representing the mental state "Relaxation".
+3 | Mental Workload | A score of 0 to 100 representing the mental state "Mental Workload".
+4 | Raw EEG Data | Raw analog EEG data at 250 samples per second.
+5 | Raw EEG Data (200 ms) | Raw analog EEG data at 50 samples per 200 ms.
+6 | Filtered EEG Data | Analog EEG data filtered with band pass filter (1 - 40 Hz) & 50 Hz notch filter).
+7 | Accelerometer Values | X, Y and Z axis data.
+8 | Normalised Frequency Waves | Normalised values for Delta, Theta, Alpha, Beta, Gamma, Low Alpha, High Alpha, Low Beta & High Beta.
+9 | Raw Frequency Waves | Actual values for Delta, Theta, Alpha, Beta, Gamma, Low Alpha, High Alpha, Low Beta & High Beta.
+10 | MCUID | A unique 32 character string that identifies each unique SenzeBand device.
+11 | Battery Level | The remaining battery power level.
+
+
 
 # Authentication
 
