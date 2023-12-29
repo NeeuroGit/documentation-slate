@@ -38,13 +38,30 @@ The NeeuroOS SDK provides the community of developers access to Neeuro SenzeBand
 
 Turn your vision to reality with NeeuroOS today!
 
+## Release Notes
+
+### Latest Version
+
+The current release of NeeuroOS SDK is Version X.X.
+
+### Previous Versions
+
+Version 1.1 - DD MMM YYYY
+
+- Bug fixes.
+- Improvements.
+
+Version 1.0 - DD MMM YYYY
+- First release.
+
+
 ## System Requirements
 
 The minimum hardware system (phone, tablet and computer) requirements needed are:
 
 Parameter | Description
 --------- | -----------
-SenzeBand 1 | Bluetooth 4.0 & above
+SenzeBand 1 | Bluetooth 4.0 & above (No longer supported)
 SenzeBand 2 | Bluetooth 5.0 & above
 
 Android system requirements:
