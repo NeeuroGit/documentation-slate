@@ -1,14 +1,18 @@
 ---
-title: NeeuroOS SDK API Reference
+title: NeeuroOS SDK Documentation
 
 language_tabs: # must be one of https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
-  - shell
-  - ruby
-  - python
-  - javascript
+#  - shell
+#  - ruby
+#  - python
+#  - javascript
+  - Android
+  - iOS
+  - Unity
+  - Windows
 
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
+  - <a href='#'>Sign Up for a Developer Code</a>
   - <a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a>
 
 includes:
@@ -25,35 +29,39 @@ meta:
 
 # Introduction
 
-Welcome to the NeeuroOS APK! You can use our APK to access NeeuroOS APK endpoints, which can get information on various cats, kittens, and breeds in our database.
+The NeeuroOS is s scalable platform for the SenzeBand. It enables the interpretation of cognitive mental states, from raw EEG signals to the development of interventions for brain health challenges.
 
-We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+Provided in the NeeuroOS SDK are functions that connect to the SenzeBand through Bluetooth and features that incorporate Artificial Intelligence or Machine Learning algorithms that provide insights from EEG signals.
 
-This example API documentation page was created with [Slate](https://github.com/slatedocs/slate). Feel free to edit it and use it as a base for your own API's documentation.
+Neeuro's own proprietary applications and solutions are built based on the NeeuroOS SDK that have had years of clinical trials, scientific evidence and patents, providing the necessary validation for the community.
+
+This NeeuroOS SDK provides the community of developers access to Neeuro SenzeBand's capabilities and its various algorithms to create their own applications to transform lives.
+
+Turn your vision to reality with NeeuroOS today!
 
 # Authentication
 
 > To authorize, use this code:
 
-```ruby
-require 'NeeuroOS'
-
-api = NeeuroOS::APIClient.authorize!('meowmeowmeow')
-```
-
-```python
-import NeeuroOS
-
-api = NeeuroOS.authorize('meowmeowmeow')
-```
-
-```shell
+```Android
 # With shell, you can just pass the correct header with each request
 curl "api_endpoint_here" \
   -H "Authorization: meowmeowmeow"
 ```
 
-```javascript
+```iOS
+require 'NeeuroOS'
+
+api = NeeuroOS::APIClient.authorize!('meowmeowmeow')
+```
+
+```Unity
+import NeeuroOS
+
+api = NeeuroOS.authorize('meowmeowmeow')
+```
+
+```Windows
 const NeeuroOS = require('NeeuroOS');
 
 let api = NeeuroOS.authorize('meowmeowmeow');
