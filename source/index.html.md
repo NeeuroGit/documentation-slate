@@ -6,10 +6,9 @@ language_tabs: # must be one of https://github.com/rouge-ruby/rouge/wiki/List-of
 #  - ruby
 #  - python
 #  - javascript
-  - Android
-  - iOS
-  - Unity
-  - Windows
+  - java
+  - objective_c
+  - csharp
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Code</a>
@@ -35,36 +34,60 @@ Provided in the NeeuroOS SDK are functions that connect to the SenzeBand through
 
 Neeuro's own proprietary applications and solutions are built based on the NeeuroOS SDK that have had years of clinical trials, scientific evidence and patents, providing the necessary validation for the community.
 
-This NeeuroOS SDK provides the community of developers access to Neeuro SenzeBand's capabilities and its various algorithms to create their own applications to transform lives.
+The NeeuroOS SDK provides the community of developers access to Neeuro SenzeBand's capabilities and its various algorithms to create their own applications to transform lives.
 
 Turn your vision to reality with NeeuroOS today!
+
+## System Requirements
+
+> The minimum system requirements needed are:
+
+Parameter | Description
+--------- | -----------
+SenzeBand 1 | Bluetooth 4.0
+SenzeBand 2 | Bluetooth 5.0
+
+> Android system requirements:
+
+Parameter | Description
+--------- | -----------
+Android API | Minimum Version 21 (Version 23 Recommended)
+Android Studio | Minimum Version 4.0.1
+
+> Apple iOS system requirements:
+
+Parameter | Description
+--------- | -----------
+Apple Device OS | Minimum iOS 11.0
+Apple Xcode | Minimum Version 14
+
+> Microsoft Windows
+
+Parameter | Description
+--------- | -----------
+Microsoft Windows OS | Minimum Version 10
+Microsoft Visual Studio | Visual Studio 2022
 
 # Authentication
 
 > To authorize, use this code:
 
-```Android
+```java
 # With shell, you can just pass the correct header with each request
 curl "api_endpoint_here" \
   -H "Authorization: meowmeowmeow"
 ```
 
-```iOS
+```objective_c
 require 'NeeuroOS'
 
 api = NeeuroOS::APIClient.authorize!('meowmeowmeow')
 ```
 
-```Unity
+```csharp
 import NeeuroOS
 
 api = NeeuroOS.authorize('meowmeowmeow')
-```
-
-```Windows
-const NeeuroOS = require('NeeuroOS');
-
-let api = NeeuroOS.authorize('meowmeowmeow');
 ```
 
 > Make sure to replace `meowmeowmeow` with your API key.
