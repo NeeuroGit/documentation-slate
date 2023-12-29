@@ -6,9 +6,9 @@ language_tabs: # must be one of https://github.com/rouge-ruby/rouge/wiki/List-of
 #  - ruby
 #  - python
 #  - javascript
-  - java: Android (Java)
-  - objective_c: iOS (Objective C)
-  - csharp: Unity (C#)
+  - java: Android
+  - objective_c: iOS
+  - csharp: Unity
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Code</a>
@@ -81,8 +81,8 @@ S/N | Parameter | Description
 5 | Raw EEG Data (200 ms) | Raw analog EEG data at 50 samples per 200 ms.
 6 | Filtered EEG Data | Analog EEG data filtered with band pass filter (1 - 40 Hz) & 50 Hz notch filter).
 7 | Accelerometer Values | X, Y and Z axis data.
-8 | Normalised Frequency Waves | Normalised values for Delta, Theta, Alpha, Beta, Gamma, Low Alpha, High Alpha, Low Beta & High Beta.
-9 | Raw Frequency Waves | Actual values for Delta, Theta, Alpha, Beta, Gamma, Low Alpha, High Alpha, Low Beta & High Beta.
+8 | Normalised Frequency Waves | Normalised values for Delta, Theta, Alpha, Beta, Gamma, Low-Alpha, High-Alpha, Low-Beta & High-Beta.
+9 | Raw Frequency Waves | Actual values for Delta, Theta, Alpha, Beta, Gamma, Low-Alpha, High-Alpha, Low-Beta & High-Beta.
 10 | MCUID | A unique 32 character string that identifies each unique SenzeBand device.
 11 | Battery Level | The remaining battery power level.
 
